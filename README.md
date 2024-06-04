@@ -1,1 +1,1 @@
-# odin-recipes
+A web page for recipes, where I demonstrate what I've learnt at this point. That should be the basics of HTML.
