@@ -1,0 +1,26 @@
+h1, h2 {
+    font-family: Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+h1 {
+    color: red;
+    background-color: chocolate;
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+    color: yellowgreen;
+}
+
+p {
+    font-size: 20px;
+}
+
+ol, ul {
+    color: teal;
+    background-color: tan;
+    font-size: medium;
+}
