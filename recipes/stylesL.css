@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2 {
     font-family: Verdana, sans-serif;
     font-size: 45px;
@@ -11,8 +16,9 @@ h1 {
 }
 
 h2 {
-    text-align: right;
+    text-align: center;
     color: yellowgreen;
+    font-size: 30px;
 }
 
 p {
@@ -20,7 +26,33 @@ p {
 }
 
 ol, ul {
-    color: teal;
-    background-color: tan;
+    color: black;
     font-size: medium;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto 10px;
+    width: 300px;
+    vertical-align: top;
+}
+
+.recipe-card {
+    height: auto;
+    width: 650px;
+    border: 2px solid orange;
+    margin: 10px auto;
+}
+
+.recipe-description {
+    width: 340px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+}
+
+img {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    
 }

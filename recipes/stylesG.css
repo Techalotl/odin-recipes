@@ -25,4 +25,13 @@ ul, ol {
     font-size: 15px;
     background-color: chocolate;
     color: green;
+    display: inline-block;
+    margin: auto;
+    width: 400px;
+    vertical-align: top;
+}
+
+img {
+    display: block;
+    margin: auto;
 }

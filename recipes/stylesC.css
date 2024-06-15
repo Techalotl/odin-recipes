@@ -15,7 +15,7 @@ h2 {
 p {
     font-size: large;
     color: darkgreen;
-    text-align: right;
+    text-align: center;
     font-weight: 700;
 }
 
@@ -24,4 +24,25 @@ ol, ul {
     font-size: medium;
     color: darkgrey;
     background-color: rgb(0, 88, 139);
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 20px;
+    width: 250px;
+    padding: 8px;
+}
+
+.recipe-card {
+    border: 2px solid brown;
+    width: 650px;
+}
+
+img {
+    display: inline-block;
+    width: 200px;
+}
+
+.recipe-description {
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
 }
